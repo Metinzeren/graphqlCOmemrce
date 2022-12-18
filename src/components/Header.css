@@ -1,0 +1,109 @@
+.header{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    text-transform: uppercase;
+}
+
+li{
+    list-style: none;
+}
+ul{
+    margin-top: auto !important;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+}
+
+.brand{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 6vh;
+}
+
+.nav_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.nav_toggler div{
+    width: 2rem;
+    height: 0.1rem;
+    margin: 0.4rem;
+    background-color: #fff;
+    transition: 0.5s ease;
+    transform: translateX(0%);
+}
+.nav_toggler{
+    cursor: pointer;
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+   body{
+    overflow-x: hidden !important;
+   }
+    .nav_toggler{
+        display: block;
+    }
+    .nav_menu{
+        position: absolute;
+        top: 7vh;
+        right: 0;
+        width: 60%;
+        height: 92vh;
+        background-color: orange;
+        flex-direction: column;
+        z-index: 12;
+        transform: translateX(100%);
+        transition: 0.5s ease;
+        gap: 1px;
+    } 
+    .nav_item{
+        transform: translateX(100%);
+        transition: 1s ease-in;
+
+    }
+ 
+    
+}
+
+.item_active{
+    transform: translateX(0);
+}
+
+.nav_active{
+    transform: translateX(0);
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-7px, 5px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-4px, -5px);
+}
+
+
+
+.count{
+    background-color: #CDEBFF;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+

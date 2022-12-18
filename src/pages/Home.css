@@ -1,0 +1,40 @@
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.home-left{
+    display: flex;
+    flex-direction: column; 
+    padding-top: 20px;
+    position: relative;
+}
+
+
+
+.home-left button{
+    background-color: #CDEBFF;
+    border: 1px solid #103754;
+    border-radius: 10px;
+    color: #103754;
+    font-size: 15px;
+    font-weight: 100;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.home-left span{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+#leaderBut{
+    background-color: orange;
+    color: #fff;
+    font-size: smaller;
+    border: none;
+}

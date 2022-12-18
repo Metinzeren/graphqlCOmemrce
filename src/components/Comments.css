@@ -1,0 +1,18 @@
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 1px solid black;
+}
+.user p{
+    margin-left: 5px;
+    
+}
+.user span{
+    margin-left: 5px;
+    font-weight: 700;
+}
+.user img{
+    width: 50px;
+    border-radius: 50%;
+}

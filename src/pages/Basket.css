@@ -1,0 +1,81 @@
+.basket-title{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.basket-title span{
+    font-size: 18px;
+    color: rgb(160, 155, 155);
+    margin-left: 5px;
+}
+.basket-list{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(160, 155, 155);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.basket-list-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+}
+.basket-list-right button{
+    background-color: #CDEBFF;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    font-size: 12px;
+}
+.basket-list-title button{
+    font-size: 12px;
+    font-weight: 100;
+    padding: 4px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 1px solid rgb(160, 155, 155);
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(160, 155, 155);
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.total button{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 1px solid rgb(160, 155, 155);
+
+}
+.total h3{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.empty h1{
+    font-weight: 100;
+}

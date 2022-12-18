@@ -1,0 +1,40 @@
+.cardAll{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.card-up img{
+    width: 100%;
+    object-fit: contain;
+}
+.cart{
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 10px;
+}
+.card-up{
+    height: 200px;
+}
+.card-down{
+    margin-top: 25px;
+}
+.card-act{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card-act button{
+    font-size: 13px;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    font-weight: 100;
+}
+.card-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
